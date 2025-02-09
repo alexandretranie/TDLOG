@@ -1,0 +1,44 @@
+% 4 tiles with no links
+NO_LINKS
+NO_LINKS
+NO_LINKS
+NO_LINKS
+
+% 8 tiles (2 per color) with one link between consecutive sides
+ONE_LINK north-east:blue
+ONE_LINK north-east:blue
+ONE_LINK north-east:purple
+ONE_LINK north-east:purple
+ONE_LINK north-east:red
+ONE_LINK north-east:red
+ONE_LINK north-east:yellow
+ONE_LINK north-east:yellow
+
+% 12 tiles (3 per color) with one link between opposite sides
+ONE_LINK north-south:blue
+ONE_LINK north-south:blue
+ONE_LINK north-south:blue
+ONE_LINK north-south:purple
+ONE_LINK north-south:purple
+ONE_LINK north-south:purple
+ONE_LINK north-south:red
+ONE_LINK north-south:red
+ONE_LINK north-south:red
+ONE_LINK north-south:yellow
+ONE_LINK north-south:yellow
+ONE_LINK north-south:yellow
+
+% 12 tiles (2 per combination of two different colors)
+% with two links between consecutive sides
+TWO_LINKS north-east:blue & south-west:purple
+TWO_LINKS north-east:blue & south-west:purple
+TWO_LINKS north-east:blue & south-west:red
+TWO_LINKS north-east:blue & south-west:red
+TWO_LINKS north-east:blue & south-west:yellow
+TWO_LINKS north-east:blue & south-west:yellow
+TWO_LINKS north-east:purple & south-west:red
+TWO_LINKS north-east:purple & south-west:red
+TWO_LINKS north-east:purple & south-west:yellow
+TWO_LINKS north-east:purple & south-west:yellow
+TWO_LINKS north-east:red & south-west:yellow
+TWO_LINKS north-east:red & south-west:yellow
